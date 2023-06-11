@@ -1,0 +1,47 @@
+
+.seprator{
+    width: 50%;
+    height: 3px;
+    background-color: #01cca1;
+    margin-top: 5rem;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutImage img{
+    width: 400px;
+    height: 300px;
+}
+
+.aboutText h2{
+    color: #01cca1;
+    font-size: 40px;
+    
+}
+.aboutText p{
+    width: 35rem;
+    color: #aeb4b8;
+    font-size: 25px;
+}
+
+@media screen and (max-width:500px) {
+    .intro{
+        flex-direction: column;
+    }
+
+    .aboutImage img{
+        width: 200px;
+        height: 100px;
+    }
+    .aboutText h2{
+        font-size: 40px;
+    }
+    .aboutText p{
+        width: 20rem;
+        font-size: 16px;
+    }
+    
+}

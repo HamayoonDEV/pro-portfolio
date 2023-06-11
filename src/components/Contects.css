@@ -1,0 +1,31 @@
+.contects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contects h1{
+    color: #01cca1;
+    font-size: 40px;
+}
+.personal-Details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.personal-Details .personal-Detail{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.contectsIcons{
+    margin-right: 1rem;
+    font-size: 60px;
+}
+.contectsIcons:hover{
+    color: #01cca1;
+}

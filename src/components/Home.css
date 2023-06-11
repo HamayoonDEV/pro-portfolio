@@ -1,0 +1,211 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+@media screen and (max-width: 500px) {
+    .home{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .home img{
+        height: 200px;
+        width: 200px;
+        margin-top: 1rem;
+        
+    }
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #1e2732;
+    
+}
+
+.hamberger{
+    color: white;
+    margin: 30px;
+    
+}
+.hamberger .closeIcon{
+    font-size: 40px;
+    cursor: pointer;
+}
+.hamberger .closeIcon:hover{
+    color:#01cca1
+}
+.hamberger .menuIcon{
+    font-size: 40px;
+    cursor: pointer;
+}
+.hamberger .menuIcon:hover{
+    color: #01cca1;
+}
+.socialIcons{
+    margin: 30px;
+    color: #01cca1;
+    margin-bottom: 6rem;
+}
+.socialIcons .gitHubIcon{
+    font-size: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #01cca1;
+}
+.socialIcons .gitHubIcon:hover{
+    font-size: 67px;
+    transition: 0.5s;
+}
+.socialIcons .linkedInIcon{
+    font-size:60px;
+    cursor: pointer;
+    color: #01cca1;
+}
+.socialIcons .linkedInIcon:hover{
+    font-size: 67px;
+    transition: 0.5s;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #15202b;
+    padding: 50px 50px;
+    transition: 0.8s;
+}
+.inActive{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -1000px;
+    background-color: #15202b;
+    padding: 50px 50px;
+    transition: 0.8s;
+}
+
+.menuCompnents{
+    color: #01cca1;
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px  20px;
+    width: 8rem;
+    border: 1px solid #01cca1 ;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    
+}
+ .menuCompnents:hover{
+    color: #15202b;
+    background-color: #01cca1;
+
+}
+
+ .menuCompnents .Icon{
+    margin-right: 10px;
+}
+
+.right{
+    margin-right: 1rem;
+}
+.right h1{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.right span{
+    font-size: 25px;
+    color: #01cca1;
+    font-weight: 400;
+}
+
+.right .welcomePara{
+    width: 35rem;
+    font-size: 25px;
+    font-weight: 400;
+    color: #aeb4b8;
+}
+
+.cv{
+    color: #01cca1;
+    margin: 20px;
+    text-decoration: none;
+    padding: 15px  20px;
+    width: 10rem;
+    border: 1px solid #01cca1 ;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #15202b;
+    cursor: pointer;
+}
+.cv:hover{
+    color: black;
+    background-color: #aeb4b8;
+    border:1px solid #aeb4b8;
+    transition: 0.8s;
+}
+
+.contect{
+    color: #01cca1;
+    margin: 20px;
+    text-decoration: none;
+    padding: 15px  20px;
+    width: 10rem;
+    border: 1px solid #01cca1 ;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #15202b;
+    cursor: pointer;
+}
+
+.contect:hover{
+    color: black;
+    background-color: #aeb4b8;
+    border: 1px solid #aeb4b8;
+    transition: 0.8s;
+}
+.leftDisable{
+    display: none;
+}
+@media screen and (max-width:500px) {
+   
+   .right{
+    margin-left: 6rem;
+    margin-top: 2rem;
+   }
+    .right h1{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+    }
+    .right .welcomePara{
+        width: 15rem;
+        font-size: 16px;
+        font-weight: 400;
+        color: #aeb4b8;
+    }
+    .right span{
+        font-size: 16px;
+        color: #01cca1;
+        font-weight: 400;
+    }
+}

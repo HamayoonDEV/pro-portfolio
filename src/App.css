@@ -1,0 +1,12 @@
+.upArrow{
+    color: #01cca1;
+    bottom: 0;
+    position: fixed;
+    cursor: pointer;
+}
+.upArrow:hover{
+    color: red;
+}
+.InActive{
+    display: none;
+}
